@@ -1,0 +1,38 @@
+{
+  "name": "mvp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyendtyna/mvp-project.git"
+  },
+  "author": "Tyna Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyendtyna/mvp-project/issues"
+  },
+  "homepage": "https://github.com/nguyendtyna/mvp-project#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0"
+  }
+}

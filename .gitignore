@@ -1,0 +1,8 @@
+# MAC Files
+.DS_Store
+
+# Node Modules
+node_modules
+
+# Bundle Files
+react-client/dist/bundle.js
