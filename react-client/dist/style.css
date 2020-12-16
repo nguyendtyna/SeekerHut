@@ -5,8 +5,9 @@
 }
 
 .category-name {
-  /* text-transform: uppercase; */
-  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+  /* text-decoration: underline; */
   color: #ff3000;
 }
 
