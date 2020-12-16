@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+
+/* Import Components */
 import Header from './components/Header.jsx';
 import AppliedList from './components/AppliedList.jsx';
 import InterviewsList from './components/InterviewsList.jsx';
@@ -19,16 +21,16 @@ export default class App extends Component {
         <Header /><br></br>
         <Container>
           <Row>
-            <Col sm="auto">
+            <Col sm={3}>
               <AppliedList />
             </Col>
-            <Col sm="auto">
+            <Col sm={3}>
               <InterviewsList />
             </Col>
-            <Col sm="auto">
+            <Col sm={3}>
               <OffersList />
             </Col>
-            <Col sm="auto">
+            <Col sm={3}>
               <RejectedList />
             </Col>
           </Row>
