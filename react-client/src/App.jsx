@@ -9,13 +9,22 @@ import InterviewsList from './components/InterviewsList.jsx';
 import OffersList from './components/OffersList.jsx';
 import RejectedList from './components/RejectedList.jsx';
 
+/* Test dummy data */
+const data = [
+  {title: 'APPLIED', items: ['1', '2', '3']},
+  {title: 'INTERVIEWS', items: ['4']},
+  {title: 'OFFERS', items: ['5']},
+  {title: 'REJECTED', items: ['6', '7']}
+];
 
 const App = () => {
   return (
     <div className="app-container">
       <div className="app">
         <Header/><br></br>
-        <HomePage/>
+        <header className="app-header">
+          <HomePage data={data}/>
+        </header>
       </div>
     </div>
   )
