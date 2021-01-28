@@ -35,6 +35,28 @@
   color: #000000;
 }
 
+.stats-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2400px;
+  padding: 2.5em 0;
+  border: solid;
+  border-width: 5px 1.7px 0 1.7px;
+  border-color: black;
+  background-color: rgb(234, 234, 234);
+}
+.stats-text-title {
+  padding-left: 15px;
+  font-size: 16px;
+  text-align: start;
+  color: #ff3000;
+}
+.stats-text {
+  font-size: 13px;
+  text-align: start;
+  color: #000000;
+}
+
 /* ////////////////////////////////// */
 .app {
   text-align: center;
